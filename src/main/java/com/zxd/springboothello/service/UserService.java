@@ -27,6 +27,7 @@ public class UserService {
     @RequestMapping("/findScrm")
     public String findScrm(){
         log.info("info: "+scrm.toString());
+        System.out.println("git");
         return scrm.toString();
     }
 }
