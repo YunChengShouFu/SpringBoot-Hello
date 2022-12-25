@@ -1,0 +1,19 @@
+2022-12-25 15:59:40,342 INFO (StartupInfoLogger.java:51)- Starting SpringBootHelloApplication using Java 19.0.1 with PID 928 (C:\Users\23078\Desktop\SpringBoot-Hello\target\classes started by 23078 in C:\Users\23078\Desktop\SpringBoot-Hello)
+2022-12-25 15:59:40,344 INFO (SpringApplication.java:636)- The following 1 profile is active: "dev"
+2022-12-25 15:59:41,261 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-12-25 15:59:41,268 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-12-25 15:59:41,269 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-12-25 15:59:41,270 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/10.1.4]
+2022-12-25 15:59:41,331 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-12-25 15:59:41,332 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 938 ms
+2022-12-25 15:59:41,868 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-12-25 15:59:41,888 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path '/scrm'
+2022-12-25 15:59:41,896 INFO (StartupInfoLogger.java:57)- Started SpringBootHelloApplication in 2.056 seconds (process running for 2.681)
+2022-12-25 16:00:26,375 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-25 16:00:26,376 INFO (FrameworkServlet.java:532)- Initializing Servlet 'dispatcherServlet'
+2022-12-25 16:00:26,377 INFO (FrameworkServlet.java:554)- Completed initialization in 1 ms
+2022-12-25 16:00:26,400 INFO (WebLogAspect.java:33)- URL : http://localhost:8081/scrm/findScrm
+2022-12-25 16:00:26,400 INFO (WebLogAspect.java:34)- HTTP_METHOD : GET
+2022-12-25 16:00:26,401 INFO (WebLogAspect.java:35)- IP : 127.0.0.1
+2022-12-25 16:00:26,401 INFO (UserService.java:29)- info: SCRM(username=dev, password=123456)
+2022-12-25 16:00:26,402 INFO (WebLogAspect.java:46)- RESPONSE : SCRM(username=dev, password=123456)
